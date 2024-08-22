@@ -7,12 +7,12 @@ https://github.com/user-attachments/assets/7fc8da9c-0a2d-4ee2-95c4-9ee97441dfa4
 
  ## How it works
  
- *Grab Radius scales with avatar height. Default height is 1.64m.
- *Grab Layers checks if colliders or rigidbodies excludes the localPlayer layer.
- *Climbing moving objects only works if that object has a Rigidbody.
- *Keep Velocity lets the player fling themselves when releaseing the climbing.
- *Can grapple up ledges to make getting up easier.
- *Designed for VR users.
+ * Grab Radius scales with avatar height. Default height is 1.64m.
+ * Grab Layers checks if colliders or rigidbodies excludes the localPlayer layer.
+ * Climbing moving objects only works if that object has a Rigidbody.
+ * Keep Velocity lets the player fling themselves when releaseing the climbing.
+ * Can grapple up ledges to make getting up easier.
+ * Designed for VR users.
 
  ## How to setup
 
