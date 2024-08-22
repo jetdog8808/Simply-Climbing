@@ -61,7 +61,7 @@ MonoBehaviour:
     m_Bits: 2049
   grabVolumes: 0
   keepVelocity: 1
-  velocityMuliplyer: 1.5
+  velocityMuliplier: 1.5
   grappleLedge: 1
 --- !u!114 &7499748721669511591
 MonoBehaviour:

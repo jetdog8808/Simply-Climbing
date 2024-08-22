@@ -14,7 +14,7 @@ public class SimplyClimbing : UdonSharpBehaviour
     public LayerMask grabLayers;
     public bool grabVolumes = false;
     public bool keepVelocity = true;
-    public float velocityMuliplyer = 1.5f;
+    public float velocityMuliplier = 1.5f;
     public bool grappleLedge = true;
 
     private bool grabbing_L;
@@ -193,6 +193,6 @@ public class SimplyClimbing : UdonSharpBehaviour
             velocity += vel;
         }
         velocity = velocity / lastVelocity.Length;
-        localUser.SetVelocity(velocity * velocityMuliplyer);
+        localUser.SetVelocity(velocity * velocityMuliplier);
     }
 }
