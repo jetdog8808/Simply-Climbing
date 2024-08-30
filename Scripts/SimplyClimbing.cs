@@ -89,7 +89,7 @@ public class SimplyClimbing : UdonSharpBehaviour
 
         for (int i = 0; i < hitCount; i++)
         {
-            if (!Utilities.IsValid(overlapResults[i]) && ((overlapResults[i].excludeLayers & localmask) != 0)) continue;
+            if (!Utilities.IsValid(overlapResults[i]) || ((overlapResults[i].excludeLayers & localmask) != 0)) continue;
 
             movingCollider = overlapResults[i].attachedRigidbody;
 
