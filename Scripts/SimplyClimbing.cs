@@ -2,7 +2,6 @@
 using System;
 using UdonSharp;
 using UnityEngine;
-using UnityStandardAssets.Utility;
 using VRC.SDKBase;
 using VRC.Udon;
 using VRC.Udon.Common;
