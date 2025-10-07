@@ -163,7 +163,8 @@ public class SimplyClimbing : UdonSharpBehaviour
             current = localUser.GetTrackingData(grabbing_L ? VRCPlayerApi.TrackingDataType.LeftHand : VRCPlayerApi.TrackingDataType.RightHand).position;
         }
 
-        Vector3 velocity = (destination - current) * (1f / Time.deltaTime);
+
+        Vector3 velocity = (destination - current) * Mathf.Clamp((1f / Time.deltaTime), 0, (1f / Time.fixedDeltaTime));
         localUser.SetVelocity(velocity);
         lastVelocity[Time.frameCount % lastVelocity.Length] = velocity;
 
